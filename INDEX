@@ -1,0 +1,16 @@
+Lenna.pgm 512x512 8-bit
+- standard test image
+
+weird.pgm 257x255 8-bit
+- Lenna resized to weird size
+
+frame.pgm 1920x1080 16-bit big-endian
+- a frame from the PersonenAmTischMitColorChart2 video sequence used within the SAUCE project
+- obtained using: ppmtopgm 00000.ppm > frame.pgm
+- which expect the values in PGM/PPM are already gamma corrected
+- From the PGM manual: Each gray value is a number proportional to the intensity of the pixel, adjusted by the ITU-R Recommendation BT.709 gamma transfer function.
+- From the PPM manual: In the raster, the sample values are "nonlinear." They are proportional to the intensity of the ITU-R Recommendation BT.709 red, green, and blue in the pixel, adjusted by the BT.709 gamma transfer function.
+
+m612-be.pgm 2564x5117 12-bit big-endian
+- a large digitized mammogram taken from http://www.math.purdue.edu/~lucier/692/test_images.html
+- converted from lil to big endian using: pamendian < m612.pgm > m612-be.pgm
