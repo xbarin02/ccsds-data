@@ -14,3 +14,8 @@ frame.pgm 1920x1080 16-bit big-endian
 m612-be.pgm 2564x5117 12-bit big-endian
 - a large digitized mammogram taken from http://www.math.purdue.edu/~lucier/692/test_images.html
 - converted from lil to big endian using: pamendian < m612.pgm > m612-be.pgm
+
+g10.pgm 3840x2160 10-bit
+- original image taken from https://raw.githubusercontent.com/jursonovicst/gradient/master/gradient.png
+- then converted into grayscale and scaled to 10-bit depth
+- commands used: convert gradient.png gradient.ppm; ppmtopgm gradient.ppm > gradient.pgm; convert gradient.pgm -fx "u/64" g10.pgm; sed -i 's/65535/1023/g' g10.pgm
