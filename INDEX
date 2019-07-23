@@ -4,6 +4,9 @@ Lenna.pgm 512x512 8-bit
 weird.pgm 257x255 8-bit
 - Lenna resized to weird size
 
+weird2.pgm 247x247 8-bit
+- Lenna having another weird size which should result into incomplete last block (number of blocks is not multiple of 16)
+
 frame.pgm 1920x1080 16-bit big-endian
 - a frame from the PersonenAmTischMitColorChart2 video sequence used within the SAUCE project
 - obtained using: ppmtopgm 00000.ppm > frame.pgm
