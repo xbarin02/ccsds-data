@@ -26,3 +26,6 @@ g10.pgm 3840x2160 10-bit big-endian
 strange.pgm 17x17 8-bit
 - this PGM file contains multi-line comments
 - it is also the minimum image size allowed by the standard
+
+SINAN.pgm 256x256 8-bit
+- test image taken from http://hyperspectral.unl.edu/DemoOurs.htm
