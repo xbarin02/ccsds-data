@@ -32,3 +32,6 @@ SINAN.pgm 256x256 8-bit
 
 black.pgm 256x256 8-bit
 - image filled with black pixels
+
+test.pgm 256x256 8-bit
+- test image having N = 1 and c' both 0 and -1 in Section 4.3.2
