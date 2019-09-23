@@ -29,3 +29,6 @@ strange.pgm 17x17 8-bit
 
 SINAN.pgm 256x256 8-bit
 - test image taken from http://hyperspectral.unl.edu/DemoOurs.htm
+
+black.pgm 256x256 8-bit
+- image filled with black pixels
