@@ -38,3 +38,6 @@ test.pgm 256x256 8-bit
 
 Lenna256.pgm 256x256 8-bit
 - Lenna resized to 256x256
+
+random.pgm 512x512 8-bit
+- /dev/urandom
