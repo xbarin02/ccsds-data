@@ -41,3 +41,6 @@ Lenna256.pgm 256x256 8-bit
 
 random.pgm 512x512 8-bit
 - /dev/urandom
+
+inverse.pgm 256x256 8-bit
+- inverse of test.pgm
