@@ -44,3 +44,6 @@ random.pgm 512x512 8-bit
 
 inverse.pgm 256x256 8-bit
 - inverse of test.pgm
+
+P1010042.pgm 591x591 8-bit
+- photo
