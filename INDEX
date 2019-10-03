@@ -47,3 +47,6 @@ inverse.pgm 256x256 8-bit
 
 P1010042.pgm 591x591 8-bit
 - photo
+
+cdf97-psi.pgm 609x423 8-bit
+- plot of the CDF 9/7 wavelet
