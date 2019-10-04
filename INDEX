@@ -50,3 +50,7 @@ P1010042.pgm 591x591 8-bit
 
 cdf97-psi.pgm 609x423 8-bit
 - plot of the CDF 9/7 wavelet
+
+Baboon.pgm 512x512 8-bit
+- Mandrill (a.k.a. Baboon)
+- standard test image taken from http://sipi.usc.edu/database/database.php?volume=misc&image=10
